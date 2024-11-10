@@ -33,7 +33,7 @@ body {
     overflow-x: hidden;
     position: relative;
     font-family: calibri;
-    background-color: #f0f7ff;
+    background-color: #f5bcbd;
     color: #353535;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -141,8 +141,6 @@ span.navbar-text {
 }
 .navbar-text button {
     font-weight: 700;
-    color: #f5bcbd;
-    border: 1px solid #fff;
     padding: 18px 34px;
     font-size: 18px;
     margin-left: 18px;
@@ -152,6 +150,7 @@ span.navbar-text {
 }
 .navbar-text button span {
 	z-index: 1;
+    color:black;
 }
 .navbar-text button::before {
     content: "";
@@ -505,7 +504,7 @@ button#pills-contact-tab {
 
 /************ Projects Css ************/
 .contact {
-    background: #f0f7ff;
+    background: #f5bcbd;
     padding: 60px 0 200px 0;
     border-bottom: 1px solid;
 }
@@ -516,6 +515,12 @@ button#pills-contact-tab {
 	font-size: 45px;
 	font-weight: 700;
     margin-bottom: 30px;
+}
+.font-weight-light {
+  font-weight: 300 !important;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
 }
 .contact form input, .contact form textarea {
     width: 100%;
